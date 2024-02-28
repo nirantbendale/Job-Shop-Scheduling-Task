@@ -1,4 +1,4 @@
-#  Technical Challenge: Job Shop Scheduling for MJM Marine
+#  Technical Challenge: Job Shop Scheduling Task
 
 ## Problem: To schedule and return the most optimised solution for scheduling the 6 jobs carried out by 4 teams where there is only 1 team working on a single job at a time and the teams can start working on a different job immediately
 
