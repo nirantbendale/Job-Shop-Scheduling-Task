@@ -13,8 +13,8 @@
  
 
 ### Constraints: 
-•	The machine 1 need to finish before the machine 2 can start, 
-•	The machine 2 need to finish before the machine 3 can start, and  
+•	The machine 1 need to finish before the machine 2 can start, \
+•	The machine 2 need to finish before the machine 3 can start, \
 •	The machine 3 need to finish before the machine 4 can start.
 
 ## Problem Formulation: 
