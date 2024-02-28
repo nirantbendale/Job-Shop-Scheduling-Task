@@ -61,4 +61,4 @@ Once an optimal solution is found, the assigned tasks are visualized using a **G
 ### Plot
 #### Visualise the schedule using a Gantt chart
 
-
+![Gantt Chart](gantt.png)
