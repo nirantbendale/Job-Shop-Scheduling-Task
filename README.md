@@ -1,6 +1,6 @@
 #  Technical Challenge: Job Shop Scheduling Task
 
-## Problem: To schedule and return the most optimised solution for scheduling the 6 jobs carried out by 4 teams where there is only 1 team working on a single job at a time and the teams can start working on a different job immediately
+## Problem: To schedule and return the most optimised solution for scheduling the 6 jobs carried out by 4 machines where there is only 1 team working on a single job at a time and the machines can start working on a different job immediately
 
 |   Job    | Machine 1 | Machine 2 | Machine 3 | Machine 4 |
 |----------|--------------|----------|---------|----------|
@@ -25,6 +25,7 @@ CP is a declarative programming paradigm where **relationships between variables
 The **OR-Tools library**, specifically the CP-SAT solver, is employed to model and solve the optimization problem.
 
 ## Flowchart of Constraint Programming:
+
 ### Import Libraries &rarr; Declare model &rarr; Create Variables &rarr; Create Constraints &rarr; Call Solver &rarr; Plot
 
 
@@ -46,7 +47,6 @@ Once an optimal solution is found, the assigned tasks are visualized using a **G
 
 ### Data pre-processing
 #### Create the dataframe
-
 #### This code segment creates a list of tuples for each job by selecting the team ID and processing time from the `jobs_df` DataFrame based on the job. Then, it organizes these tuples into nested lists representing all the jobs. It calculates the number of machines needed for the jobs and calculates the horizon, which represents the total time span required to complete all tasks across all jobs.
 
 ### Declare model
